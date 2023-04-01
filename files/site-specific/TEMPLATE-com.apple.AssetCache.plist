@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Activated</key>
+	<true/>
+	<key>AllowPersonalCaching</key>
+	<false/>
+	<key>AllowTetheredCaching</key>
+	<true/>
+    <key>CacheLimit</key>
+    <!-- Set a CacheLimit of 150 GB -->
+    <integer>150000000000</integer>
+    <key>Interface</key>
+    <string>en1</string>
+    <key>ListenRanges</key>
+    <array>
+        <dict>
+            <key>type</key>
+            <string>IPv4</string>
+            <key>first</key>
+            <string>10.1.2.1</string>
+            <key>last</key>
+            <string>10.1.2.254</string>
+        </dict>
+    </array>
+    <key>LogClientIdentity</key>
+    <string>true</string>
+    <key>Port</key>
+    <integer>12345</integer>
+    <key>ReservedVolumeSpace</key>
+    <!-- Set the ReservedVolumeSpace to 1 GB -->
+    <integer>1000000000</integer>
+</dict>
+</plist>
